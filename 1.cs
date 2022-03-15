@@ -3,6 +3,8 @@ public class Hello
 {
 	public static void Main(string [] args)
 	{
-		Console.WriteLine("helloworld");
+		string name = args[0];
+ 	
+		Console.WriteLine("helloworld {0}",name);
 	}
 }
